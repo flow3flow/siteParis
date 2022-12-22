@@ -1,0 +1,187 @@
+ 
+ @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url('font/Roboto-Regular.ttf') format('truetype');
+    }
+
+    * {
+        font-family: Roboto, 'serif';
+    }
+
+
+.corps {
+    background-color: white;
+    margin: auto;
+}
+
+
+.header {
+    width: 100%;
+    border-bottom: 3px black solid;
+}
+
+.logo {
+    display: flex;
+}
+
+.logoParis {
+    margin-left: 50px;
+}
+
+.dessinparis {
+    margin: auto;
+}
+
+.bienvenue {
+    text-align: center;
+    line-height: 107px;
+    font-size: 3rem;
+}
+
+.conteneur1 {
+    border: 3px white;
+}
+
+nav {
+    background-color: rgb(106, 37, 102);
+    width: 100%;
+    display: flex;
+    
+}
+
+nav ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.btn {
+    width: 5rem;
+    list-style-type: none;
+    margin: auto;
+
+}
+
+.btn a:hover {
+    color: gold;
+}   
+
+a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 16.2px;
+}
+
+
+
+.photoHome {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.photoHome img {
+    width: 16%;
+    height: auto;
+}
+
+
+.photoHome img{
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photoHome img {
+   padding: 5px;
+    filter : grayscale(100%);   /* pour mettre en noir */
+    transition: 1s;
+}
+
+.photoHome img:hover{
+     filter: grayscale(0);   /** quand tu fait click sur img elle prend la couleur */
+    transform: scale(1.1);
+}
+
+img.hover-shadow{
+    transition: 0.3s;
+
+}
+
+.section {
+    display: flex;
+    margin: 20px;
+    margin-right: 50px;
+    font-size: 1em;
+    padding: 30px;
+}
+
+.texte {
+    justify-content: center;
+    margin: 0 13px 0 13px;
+}
+
+.source {
+    color: black;
+}
+
+
+
+.footer{
+    margin: auto;
+    font-size: medium;
+    color: white;
+    background-color: rgb(106, 37, 102);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social li {
+    list-style-type: none;
+}
+
+.social a {
+    list-style-type: none;
+    margin: 30px;
+}
+
+
+.fa {
+    font-size: 48px;
+}
+
+.fa:hover {
+    color: gold;
+}
+
+.social a i {
+    list-style-type: none;
+    text-decoration: none;
+}
+
